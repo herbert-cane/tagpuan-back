@@ -246,7 +246,7 @@ npm run start
 [API_LINK]/conversation/send/:conversationId
 ```
 >*Required fields*
-```
+```javascript
 {
   content (String)
 }
@@ -273,7 +273,7 @@ npm run start
 [API_LINK]/item/create
 ```
 >*Required fields*
-```
+```javascript
 {
   name (String),
   marketplace (enum), //[values: "Farmers", "Consumers"]
@@ -297,7 +297,7 @@ npm run start
 [API_LINK]/item/buy/:itemId
 ```
 >*Required fields*
-```
+```javascript
 {
   quantity (int),
   place_of_delivery (String),
